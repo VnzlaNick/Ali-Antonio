@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#5d5f60",
+                    "surface-variant": "#e2e2e3",
+                    "on-secondary-fixed": "#3f3f3f",
+                    "inverse-on-surface": "#9e9d9c",
+                    "on-primary": "#faf7f6",
+                    "error": "#9f403d",
+                    "outline-variant": "#b1b2b2",
+                    "on-tertiary-fixed-variant": "#6e6053",
+                    "surface-dim": "#d9dada",
+                    "primary-container": "#e5e2e1",
+                    "on-secondary-fixed-variant": "#5b5b5b",
+                    "inverse-primary": "#ffffff",
+                    "surface-container": "#eeeeed",
+                    "background": "#fbf9f8",
+                    "primary-fixed": "#e5e2e1",
+                    "on-primary-fixed-variant": "#5c5b5b",
+                    "secondary-dim": "#535353",
+                    "inverse-surface": "#0e0e0e",
+                    "on-error": "#fff7f6",
+                    "on-primary-container": "#525151",
+                    "primary": "#5f5e5e",
+                    "tertiary-dim": "#5e5144",
+                    "surface-container-high": "#e8e8e8",
+                    "tertiary-container": "#feebda",
+                    "tertiary-fixed-dim": "#efdccc",
+                    "primary-fixed-dim": "#d6d4d3",
+                    "surface-container-low": "#f5f3f3",
+                    "secondary": "#5f5f5f",
+                    "on-tertiary-fixed": "#504438",
+                    "secondary-fixed-dim": "#d5d4d4",
+                    "surface": "#fbf9f8",
+                    "outline": "#797b7b",
+                    "on-tertiary-container": "#635649",
+                    "surface-bright": "#fbf9f8",
+                    "surface-tint": "#5f5e5e",
+                    "on-surface": "#303333",
+                    "secondary-fixed": "#e4e2e2",
+                    "on-primary-fixed": "#403f3f",
+                    "error-dim": "#4e0309",
+                    "tertiary": "#6a5d50",
+                    "tertiary-fixed": "#feebda",
+                    "secondary-container": "#e4e2e2",
+                    "surface-container-highest": "#e2e2e3",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary-container": "#515252",
+                    "on-error-container": "#752121",
+                    "on-secondary": "#faf8f8",
+                    "primary-dim": "#535252",
+                    "on-background": "#303333",
+                    "error-container": "#fe8983",
+                    "on-tertiary": "#fff7f3"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Newsreader"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body selection:bg-tertiary-container selection:text-on-tertiary-container">
+<!-- TopAppBar Shell -->
+<header class="fixed top-0 w-full z-50 flex justify-between items-center px-3 py-2 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-xl">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-stone-700 dark:text-stone-300" data-icon="menu">menu</span>
+</div>
+
+<h1 class="font-serif italic text-2xl tracking-tighter text-stone-900 dark:text-stone-50">Te amo</h1>
+<div class="w-8 h-8 rounded-full overflow-hidden bg-surface-container-highest">
+<img alt="User profile" class="w-full h-full object-cover" data-alt="excenle mama" src="https://i.wpfc.ml/e0/o9iud7.jpg"/>
+</div>
+</header>
+<main class="pt-12 pb-30">
+
+<!-- Editorial Intro Section -->
+<section class="px-2 mb-2">
+<div class="flex flex-col gap-2">
+<span class="text-xs font-label uppercase tracking-widest text-tertiary mb-0">Marisel G.</span>
+<h3 class="font-headline text-3xl italic tracking-tight leading-none text-on-surface">Gran Mujer ❤️<br/>Excelente Madre 🌹</h3>
+<div class="w-12 h-[1px] bg-outline-variant/5 mt-2"></div>
+</div>
+</section>
+
+    <!-- Fondo -->
+  <section class="relative h-screen w-full overflow-hidden">
+    <div class="absolute inset-0 z-0">
+     <img alt="Moose in misty forest" class="w-full h-full object-cover" data-alt=" Las Amos" src="https://i.wpfc.ml/e0/o9fwq7.jpg">
+     
+      <!-- Scrim for legibility -->
+     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+    </div>
+
+<!-- menu carrucel -->
+<section class="relative">
+<div class="flex overflow-x-auto hide-scrollbar snap-x snap-mandatory gap-4 px-6">
+
+
+<!-- Imagen 1 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 2" class="w-full h-full object-cover" data-alt="1" src="https://i.wpfc.ml/e0/o9l8mc.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">Linda amanecida</p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest uppercase mt-1">Un bello amanecer 💞</p>
+</div>
+</div>
+</div>
+
+
+<!-- Imagen 2 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 2" class="w-full h-full object-cover" data-alt="2" src="https://i.wpfc.ml/e0/o9l8or.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">Cenando ternura</p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest uppercase mt-1"> El sabor de tu vida 🍽️</p>
+</div>
+</div>
+</div>
+
+
+<!-- Imagen 3 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 1" class="w-full h-full object-cover" data-alt="Te amo" src="https://i.wpfc.ml/e0/o9l8md.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">De locura</p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest uppercase mt-1">momento locu amor 😁</p>
+</div>
+</div>
+</div>
+
+<!-- Imagen 4 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 3" class="w-full h-full object-cover" data-alt="lifestyle photography of silk fabrics draped over a vintage wooden chair in a dusty sunlit room" src="https://i.wpfc.ml/e0/o9l89e.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">Déjame mama</p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest u">Sin ganas de ladrar 😴</p>
+</div>
+</div>
+</div>
+
+<!-- Imagen 5 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 3" class="w-full h-full object-cover" data-alt="lifestyle photography of silk fabrics draped over a vintage wooden chair in a dusty sunlit room" src="https://i.wpfc.ml/e0/o9l8po.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">Felicidades vida </p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest u">Un más más de amor 🪷</p>
+</div>
+</div>
+</div>
+
+<!-- Imagen 6 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 3" class="w-full h-full object-cover" data-alt="lifestyle photography of silk fabrics draped over a vintage wooden chair in a dusty sunlit room" src="https://i.wpfc.ml/e0/o9l8q5.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">Sonriendo a la vida</p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest u">Un buen día para sonreir 🌅</p>
+</div>
+</div>
+</div>
+
+<!-- Imagen 7 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 3" class="w-full h-full object-cover" data-alt="lifestyle photography of silk fabrics draped over a vintage wooden chair in a dusty sunlit room" src="https://i.wpfc.ml/e0/o9l8ok.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">Concierto vallenatero</p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest u">Una buena canción 🪗</p>
+</div>
+</div>
+</div>
+
+
+<!-- Imagen 8 -->
+<div class="flex-none w-[85vw] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Fashion editorial 3" class="w-full h-full object-cover" data-alt="lifestyle photography of silk fabrics draped over a vintage wooden chair in a dusty sunlit room" src="https://i.wpfc.ml/e0/o9l8lt.jpg"/>
+<div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-stone-900/60 to-transparent">
+<p class="text-on-primary font-headline italic text-2xl">Dos motivaciones</p>
+<p class="text-on-primary/80 font-label text-[10px] tracking-widest u">En busca de un mejor futuro 👩‍💻</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- Pagination Dots -->
+<div class="flex justify-center gap-3 mt-10">
+<div class="w-1.5 h-1.5 rounded-full bg-primary">1</div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-container-highest">2</div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-container-highest"></div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-container-highest"></div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-container-highest"></div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-container-highest"></div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-container-highest"></div>
+</div>
+</section>
+
+<!-- Carousel Logic -->
+<script>
+        const carousel = document.getElementById('carousel');
+        const dots = document.querySelectorAll('.dot');
+        
+        carousel.addEventListener('scroll', () => {
+            const scrollLeft = carousel.scrollLeft;
+            const itemWidth = carousel.querySelector('.flex-none').offsetWidth + 16; // width + gap
+            const activeIndex = Math.round(scrollLeft / itemWidth);
+            
+            dots.forEach((dot, index) => {
+                if (index === activeIndex) {
+                    dot.classList.remove('bg-surface-container-highest');
+                    dot.classList.add('bg-primary');
+                } else {
+                    dot.classList.add('bg-surface-container-highest');
+                    dot.classList.remove('bg-primary');
+                }
+            });
+        });
+    </script>
